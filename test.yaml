@@ -3,27 +3,27 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: |
-    <div class="login-form">
-      <div class="heading">
-        <h1>HTML Injection : Fake Login</h1>
-      </div>
-      <div class="form-container">
-        <form action="https://example.com/login" method="post" class="form-signin">
-          <div class="form-group">
-            <label for="username">Username</label>
-            <input type="text" name="username" size="20">
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" size="20">
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-default">Login</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <script>alert(1)</script>
+    &lt;div class=&quot;login-form&quot;&gt;
+      &lt;div class=&quot;heading&quot;&gt;
+        &lt;h1&gt;HTML Injection : Fake Login&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;form-container&quot;&gt;
+        &lt;form action=&quot;https://example.com/login&quot; method=&quot;post&quot; class=&quot;form-signin&quot;&gt;
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;username&quot; size=&quot;20&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
+            &lt;input type=&quot;password&quot; name=&quot;password&quot; size=&quot;20&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Login&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;alert(1)&lt;/script&gt;
 paths:
   /:
     post:
